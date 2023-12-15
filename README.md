@@ -1,4 +1,5 @@
 # AdventOfCode2023
-**FH CAMPUS WIEN**
-**Advanced Software Development**
+
+**ASD FH CAMPUS WIEN**
+
 **Lukas Jaiczay und Aritz Candina**
