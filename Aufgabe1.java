@@ -5,11 +5,11 @@ import java.util.Scanner;
 import static java.lang.Integer.parseInt;
 
 
-public class FileReader {
+public class Aufgabe1 {
 
     private String file;
 
-    public FileReader(String file){
+    public Aufgabe1(String file){
         this.file = file;
     }
 
@@ -114,7 +114,7 @@ public class FileReader {
 
     public static void main(String[] args) {
 
-        FileReader reader = new FileReader("C:\\Users\\Lukas\\IdeaProjects\\AdventOfCode_123\\input.txt");
+        Aufgabe1 reader = new Aufgabe1("C:\\Users\\Lukas\\IdeaProjects\\AdventOfCode_aritz\\input.txt");
         reader.getCalibration(reader.file);
 
     }
