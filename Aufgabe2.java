@@ -7,6 +7,7 @@ import java.util.Objects;
 
 public class Aufgabe2 {
 
+
     public static Map<String, String> byBufferedReader(String filePath) {
         HashMap<String, String> map = new HashMap<>();
         String line;
