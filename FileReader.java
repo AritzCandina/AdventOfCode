@@ -97,6 +97,7 @@ public class FileReader {
         return finalSum;
     }
 
+
     public static boolean isNumeric(String line) {
         return line.matches("-?\\d+(\\.\\d+)?");
     }
@@ -106,8 +107,6 @@ public class FileReader {
             System.out.println(currentChar);
             if (isNumeric(String.valueOf(currentChar))) {
                 return currentChar;
-
-
             }
         }
         return "";
